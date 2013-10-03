@@ -9,3 +9,6 @@ $head = "<title>Pade d'acceuil</title>";
 <p>
     hello,world!
 </p>
+<p>
+    test
+</p>
