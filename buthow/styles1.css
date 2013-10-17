@@ -100,7 +100,24 @@ p {
     margin: 5px;
     padding: 5px;
     background-color: lightgray;
+}
+/* properties */
+.inline {
+    display: inline-block;
+    zoom:1;
+    *display:inline;
+}
 
+.left {
+    float: left;    
+}
+
+.right {
+    float: right;    
+}
+
+.white {
+    color: white;
 }
 
 /* components */
@@ -235,21 +252,35 @@ p {
     width: 40px;
 }
 
-/* properties */
-.inline {
-    display: inline-block;
-    zoom:1;
-    *display:inline;
+/* users n permissions */
+.t1, .t2, .t3, .t0 {
+    padding: 5px;
+    border-bottom: 1px solid lightgrey;
+}
+.t1{
+    margin: 5px 5px 5px 10px;
+} .t1:hover {
+    background-color: grey;
+    color: white;
 }
 
-.left {
-    float: left;    
+.t2 {
+    margin: 5px 5px 5px 30px;
+} .t2:hover {
+    background-color: grey;
+    color: white;
 }
 
-.right {
-    float: right;    
+.t3 {
+    margin: 5px 5px 5px 50px;
+} .t3:hover {
+    background-color: grey;
+    color: white;
 }
 
-.white {
+.t0{
+    margin: 10px;
+} .t0:hover {
+    background-color: grey;
     color: white;
 }
