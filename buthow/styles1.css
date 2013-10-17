@@ -1,0 +1,255 @@
+/* general */
+body, button, textarea {
+    font-size: 12px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+
+}
+
+table {
+    border: none;
+    margin: 10px 5px;
+    text-align: center;
+}
+
+table, input, label, select, option, textarea, button, fieldset, legend {
+    font-size:12px;
+}
+
+div, table, form, input, textarea{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.text1, .text2, textarea {
+    padding: 5px;
+    margin: 5px;   
+    border: none;
+    background-color:lavender;
+}
+
+.text1 {
+    width: 110px;
+}
+
+.text2 {
+    width: 50px
+}
+
+textarea {
+    height: 50px;
+    width: 700px;
+}
+
+.button {
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    height: 15px;
+    cursor: pointer;
+    background-color: lavender;
+    text-align: center;
+    font-weight: bold;
+} .button:hover {
+    background-color: darkgrey;
+    color: white;
+} .button:active {
+    background-color: white;
+    color: black;
+} 
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+h2 {
+    background-color: grey;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+h3 {
+    margin: 5px;
+    padding: 5px;
+}
+
+b {
+    margin: 5px;
+    padding: 5px;
+}
+
+p {
+    padding: 0px;
+    margin: 5px;
+}
+
+#Lower{
+    max-width: 1180px;
+}
+
+.Main {
+    float: left;
+    width: 1010px;
+    margin: 5px;
+    padding: 5px;
+    background-color: lightgray;
+
+}
+
+/* components */
+#create-activities {
+    float: right;
+    border: none;
+    background-color: lightgrey;
+    padding: 5px;
+    margin: 5px;
+}
+
+.box1 {
+    background-color: grey;
+    color: white;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 180px;
+    text-align: left;
+}
+
+.box2 {
+    background-color: darkgrey;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 485px;
+    text-align: left;
+}
+
+.panels {
+    background-color: darkgrey;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 990px;
+}
+
+.wrap {
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* activities */
+#activity-filters {
+    float: left;
+    padding: 5px;
+    margin: 5px;  
+    background-color: lightgray;
+}
+
+.collapse1 {
+    display: none;
+}
+
+/* .List */
+.List {
+    width: 990px;
+    border-collapse: collapse;
+}
+
+.List tr {
+    cursor: pointer;    
+} .List tr:hover{
+    background-color: darkgrey;
+}
+
+.List th {
+    background-color: grey;
+    color: white; 
+} .List th:hover{
+    background-color: darkgrey;
+} .List th:acitve {
+    background-color: white;
+    color:black;
+}
+.List td, .List th {
+    border-bottom: 1px solid white;
+    padding: 5px;
+}
+.List a:hover {
+    text-decoration: underline;
+}
+
+/* paging */
+.pages {
+    width: 30px; 
+    height: 15px;
+    margin: 1px;
+    padding: 5px;
+    background-color: lavender;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pages:hover {
+    background-color: darkgrey;
+    color: white;
+}
+
+.pages:active {
+    background-color: white;
+    color: black;
+} 
+
+/* detail */
+.detail {
+    width: 990px;
+    margin: 5px;
+    border-collapse: collapse;
+    float: none;
+    text-align: left;
+}
+
+.detail tr {
+    height: 38px;
+    border-bottom: 1px solid white;
+}
+
+.tdl {
+    color: grey;
+    width: 180px;
+}
+
+.note {
+    border-bottom: 1px dashed white;
+}
+
+/* settings */
+.thl {
+    width: 40px;
+}
+
+/* properties */
+.inline {
+    display: inline-block;
+    zoom:1;
+    *display:inline;
+}
+
+.left {
+    float: left;    
+}
+
+.right {
+    float: right;    
+}
+
+.white {
+    color: white;
+}
