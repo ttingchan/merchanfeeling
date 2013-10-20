@@ -41,6 +41,24 @@ textarea {
     height: 50px;
     width: 700px;
 }
+select{ 
+    margin: 0; 
+    padding: 0; 
+    outline: none;  
+    width: 120px; 
+    border: none;
+    border-radius: 5px; 
+    display: inline-block; 
+    text-align: right; 
+    background-color: grey; 
+    color: black;
+    cursor: pointer;
+    -webkit-appearance: none;
+} 
+
+option{
+    background-color: lightgrey;
+}
 
 .button {
     margin: 5px;
@@ -156,7 +174,7 @@ p {
     width: 990px;
 }
 
-.wrap {
+.scroll-panel {
     height: 400px;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -256,6 +274,7 @@ p {
 .t1, .t2, .t3, .t0 {
     padding: 5px;
     border-bottom: 1px solid lightgrey;
+    cursor: pointer;
 }
 .t1{
     margin: 5px 5px 5px 10px;

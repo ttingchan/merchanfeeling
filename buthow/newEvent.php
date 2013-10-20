@@ -1,12 +1,4 @@
-<html>
-    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-    <head>
-        <link rel="stylesheet" href="styles1.css" />
-        <link rel="stylesheet" href="activities.css" />
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-        <script src="activities.js"></script>
-    </head>
-    <body>
+<?php include 'Head.php' ?>
         <div id="Lower">
             <div id="create-activities">
                 <div><b>Create</b></div>
@@ -56,5 +48,4 @@
                 </div>
             </div>
         </div>
-    </body>
-</html>
+<?php include 'End.php' ?>
