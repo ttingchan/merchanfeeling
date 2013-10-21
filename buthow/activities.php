@@ -14,7 +14,7 @@
                         <a href="#"><div class="button inline flip">Advanced</div></a>
 
                     </div>
-                    <div class="collapse1">
+                    <div class="collapse">
                         <div class="box1">
                             <div><input type="checkbox" id="param-1"><label for="param-1"><b>All Activities</b></label></div>
                             <div><input type="checkbox" id="param-1-1"><label for="param-1-1">Open Activities</label></div>

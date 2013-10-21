@@ -188,7 +188,7 @@ p {
     background-color: lightgray;
 }
 
-.collapse1 {
+.collapse, .collapse-1, .collapse-1-1, .collapse-1-2, .collapse-2, .collapse-2-1 {
     display: none;
 }
 
@@ -275,6 +275,11 @@ p {
     padding: 5px;
     border-bottom: 1px solid lightgrey;
 }
+
+.t1 span, .t1 span, .t2 span, .t3 span, .t0 span {
+    cursor: pointer;
+}
+
 .t1{
     margin: 5px 5px 5px 10px;
 } .t1:hover {
@@ -303,6 +308,3 @@ p {
     color: white;
 }
 
-.usernames {
-    cursor: pointer;
-}

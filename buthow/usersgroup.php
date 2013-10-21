@@ -1,6 +1,6 @@
 <div class="box2">
     <h3>All Users</h3>
-    <div class="button">Delete</div>
+    
     <div class="scroll-panel" id="users">
         <div class="t0">
             <span><input type="checkbox"></span>
@@ -106,7 +106,8 @@
         </form>                       
 
         <div class="t0">
-            <div>[+]</div>
+            <div class="inline button">Delete</div>
+            <div class="inline button">New</div>
         </div>
 
     </div>
