@@ -15,7 +15,7 @@ table, input, label, select, option, textarea, button, fieldset, legend {
     font-size:12px;
 }
 
-div, table, form, input, textarea{
+div, span, table, form, input, textarea{
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -o-border-radius: 5px;
@@ -274,7 +274,6 @@ p {
 .t1, .t2, .t3, .t0 {
     padding: 5px;
     border-bottom: 1px solid lightgrey;
-    cursor: pointer;
 }
 .t1{
     margin: 5px 5px 5px 10px;
@@ -302,4 +301,8 @@ p {
 } .t0:hover {
     background-color: grey;
     color: white;
+}
+
+.usernames {
+    cursor: pointer;
 }
