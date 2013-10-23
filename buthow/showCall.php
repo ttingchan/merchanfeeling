@@ -13,28 +13,28 @@
             <div class="button inline">Edit</div>
         </div>
         <div>
-            <h2>Event - Do a Test</h2>
+            <h2>Call - About...</h2>
         </div>
         <table class="detail">
             <tr>
-                <td class="tdl">Created By</td>
-                <td><a href="#">Li Meng</a> | 16/09/2013 06:00 AM</td>
+                <td class="tdl">Status</td>
+                <td>Finished</td>
             </tr>
             <tr>
-                <td class="tdl">Start Date Time</td>
-                <td>18/10/2013 06:00 AM</td>
+                <td class="tdl">Type</td>
+                <td>Call out</td>
+            </tr>
+            <tr>
+                <td class="tdl">Date Time</td>
+                <td>17/10/2013 06:00 AM</td>
             </tr> 
             <tr>
-                <td class="tdl">End Date Time</td>
-                <td>18/10/2013 06:00 AM</td>
+                <td class="tdl">Duration</td>
+                <td>45 minutes</td>
             </tr> 
             <tr>
-                <td class="tdl">Event Owner</td>
+                <td class="tdl">Call Owner</td>
                 <td><a href="#">John Smith</a></td>
-            </tr>
-            <tr>
-                <td class="tdl">Modified By</td>
-                <td><a href="#">Li Meng</a> | 18/09/2013 06:00 AM</td>
             </tr>
 
             <tr>

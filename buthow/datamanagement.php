@@ -141,8 +141,9 @@
 
 
 
-        <div class="left button">Export</div>
-
+        <div class="left button" style="clear: left">Export</div>
+        <div class="left button">Backup</div>
+        <div class="left button">Recover</div>
     </div>
 
 </div>

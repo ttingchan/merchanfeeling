@@ -15,17 +15,23 @@ table, input, label, select, option, textarea, button, fieldset, legend {
     font-size:12px;
 }
 
-div, span, table, form, input, textarea{
+div, span, table, form, input, textarea, select{
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px;
 }
 
-.text1, .text2, textarea {
+.text1, .text2, textarea{
     padding: 5px;
     margin: 5px;   
     border: none;
+    background-color:lavender;
+}
+select {
+    padding: 0 5px;
+    margin: 0 5px;
+        border: none;
     background-color:lavender;
 }
 
@@ -42,15 +48,13 @@ textarea {
     width: 700px;
 }
 select{ 
-    margin: 0; 
-    padding: 0; 
+ 
     outline: none;  
-    width: 120px; 
+    width: 110px; 
     border: none;
     border-radius: 5px; 
     display: inline-block; 
-    text-align: right; 
-    background-color: grey; 
+    text-align: right;  
     color: black;
     cursor: pointer;
     -webkit-appearance: none;
