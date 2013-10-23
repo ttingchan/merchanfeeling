@@ -63,8 +63,12 @@ form a{
 	font-weight:bold;
 	text-shadow:1px 1px rgba(255,255,255,0.75);
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 
-table{
+.header,.naviTable{
     margin-left: 12%;
     font-weight:bold;
 }
@@ -89,8 +93,8 @@ a:active{
 }
 
 a:hover { 
-    text-decoration:underline;
-    color: #310f33;
+    text-decoration:none;
+    color: white;
 }
 
 .settings a:hover,.settings a:visited{
@@ -109,11 +113,94 @@ a:hover {
     background-color: #fff;
 }
 
-.companyPart{
-    background-color: #fff;
-    width: 300px;
-    height: 200px;
-    border-color:#fff ; 
+.button {
+    margin: 5px;
+    padding: 5px;
+    width: 120px;
+    height: 20px;
+    cursor: pointer;
+    background-color: lavender;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+} 
+
+.button:hover {
+    text-decoration: none;
+    background-color: darkgrey;
+    color: white;
+} 
+
+.button:active,.button:visited {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+} 
+
+.comContent{
+    margin-top: 20px;
+    margin-left: 12%;
+    width: 800px;
+    height:1000px;
+    background-color: white;
+}
+
+#Comfilter{
+    float: left;
+    padding: 5px;
+    margin-top: 20px;  
+    margin-left: 20px;
+    background-color: lightgrey;
+}
+
+#CreateCom{
+    float: right;
+    border: none;
+    background-color: lightgrey;
+    width: 190px;
+    height:600px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 110px;
+
+}
+
+.inline{
+    display: inline-block;
+    zoom:1;
+    *display:inline;
+}
+
+.text1{
+    padding: 5px;
+    margin: 5px;   
+    border: none;
+    background-color:lavender;
+}
+
+.collapse1{
+    display: none;
+}
+
+.box1 {
+    background-color: grey;
+    color: white;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 180px;
+    text-align: left;
+}
+
+.comMain {
+    float: left;
+    width: 750px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    /*text-align: left;*/
+    background-color: lightgray;
 }
 
 .searchdiv{    
@@ -123,6 +210,130 @@ a:hover {
     border-top:1px solid #3e3e3e;
     border-bottom:1px solid #3e3e3e;
     text-align:center;
+}
+
+.List {
+    width: 750px;
+    text-align:center;
+    border-collapse: collapse;
+}
+
+.List tr {
+    cursor: pointer;    
+}
+/*
+.List tr:hover{
+    background-color: darkgrey;
+}*/
+
+.List th {
+    background-color: grey;
+    color: white; 
+}
+/*
+.List th:hover{
+    background-color: darkgrey;
+}*/
+
+.List th:acitve {
+    background-color: white;
+    color:black;
+}
+
+.List td, .List th {
+    /*
+    border-bottom: 1px solid white;*/
+    padding: 5px;
+}
+
+.List a:hover {
+    text-decoration: underline;
+}
+
+.List a:visited{
+    text-decoration: none;
+    color: black;
+}
+/*for the page companyInformation*/
+
+.operation{
+    float: left;
+    padding: 5px;
+    margin-top: 20px;  
+    margin-left: 20px;
+    background-color: lightgrey;
+}
+
+.List tr td table{
+    text-align: left;
+    width:400px;
+    border-collapse:collapse;
+    border:1px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+/*
+.ListInfo{
+    width:750px;
+    text-align: left;
+    border-collapse: collapse
+}
+
+.ListInfo th{
+    cursor: pointer;
+}
+*/
+
+/* the contact information page*/
+.conPro{
+    float: left;
+}
+
+.contactProfile{
+    width: 120px;
+    height:120px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.addNote{
+    width:250px;
+    height:100px;
+}
+.sendNote{
+    width:100px;
+}
+#company{
+    text-align: left;
+}
+
+.create{
+    margin-left: 200px;
+    padding-top: 40px;
+    width:600px;
+}
+.createForm{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 150px;
+}
+
+.inputForm{
+    height: 30px;
+    width: 200px;
+}
+
+.buttonForm{
+    height: 40px;
+    width:80px;
+}
+
+.createForm tr{
+    padding-bottom: 30px;
+}
+legend{
+    text-align: center;
 }
        /*.footerSearch .searchBar{margin:0 auto;}*/
  
@@ -167,7 +378,7 @@ a:hover {
     padding:0 8px;
     font-size:12px;
     color:#000000;
-    width:240px; 
+    width:220px; 
     background:#fff;
     float:left
 }
