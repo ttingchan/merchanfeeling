@@ -87,7 +87,7 @@ a {
 }
 
 h2 {
-    background-color: grey;
+    background-color: #532371;
     color: white;
     margin: 5px;
     padding: 5px;
@@ -152,7 +152,7 @@ p {
 }
 
 .box1 {
-    background-color: grey;
+    background-color: #532371;
     color: white;
     float: left;
     margin: 5px;
@@ -209,7 +209,7 @@ p {
 }
 
 .List th {
-    background-color: grey;
+    background-color: #532371;
     color: white; 
 } .List th:hover{
     background-color: darkgrey;
@@ -261,7 +261,7 @@ p {
 }
 
 .tdl {
-    color: grey;
+    color: #532371;
     width: 180px;
 }
 
@@ -287,28 +287,28 @@ p {
 .t1{
     margin: 5px 5px 5px 10px;
 } .t1:hover {
-    background-color: grey;
+    background-color: #532371;
     color: white;
 }
 
 .t2 {
     margin: 5px 5px 5px 30px;
 } .t2:hover {
-    background-color: grey;
+    background-color: #532371;
     color: white;
 }
 
 .t3 {
     margin: 5px 5px 5px 50px;
 } .t3:hover {
-    background-color: grey;
+    background-color: #532371;
     color: white;
 }
 
 .t0{
     margin: 10px;
 } .t0:hover {
-    background-color: grey;
+    background-color: #532371;
     color: white;
 }
 
