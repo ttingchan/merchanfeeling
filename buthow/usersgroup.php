@@ -18,7 +18,7 @@
         </div>
         <div class="t0">
             <span><input type="checkbox"></span>
-            <span class="usernames" >
+            <span class="usernames" onclick="javascript:window.location.href='usersnpermissions.php?usernames=John Smith&usersgroup=Super User'">
                 John Smith
             </span>
             <span class="right">
@@ -29,67 +29,8 @@
                     <option value="superadministrator">Super Administrator</option>
                 </select>
             </span>
-        </div>                    
-        <div class="t0">
-            <span><input type="checkbox"></span>
-            John Smith
-            <span class="right">
-                <select name="usergroup">
-                    <option value="user">User</option>
-                    <option value="superuser">Super User</option>
-                    <option value="administrator" selected="selected">Administrator</option>
-                    <option value="superadministrator">Super Administrator</option>
-                </select>
-            </span>
-        </div>                     
-        <div class="t0">
-            <span><input type="checkbox"></span>
-            John Smith
-            <span class="right">
-                <select name="usergroup">
-                    <option value="user">User</option>
-                    <option value="superuser">Super User</option>
-                    <option value="administrator" selected="selected">Administrator</option>
-                    <option value="superadministrator">Super Administrator</option>
-                </select>
-            </span>
-        </div>                     
-        <div class="t0">
-            <span><input type="checkbox"></span>
-            John Smith
-            <span class="right">
-                <select name="usergroup">
-                    <option value="user">User</option>
-                    <option value="superuser">Super User</option>
-                    <option value="administrator">Administrator</option>
-                    <option value="superadministrator" selected="selected">Super Administrator</option>
-                </select>
-            </span>
-        </div>                    
-        <div class="t0">
-            <span><input type="checkbox"></span>
-            John Smith
-            <span class="right">
-                <select name="usergroup">
-                    <option value="user">User</option>
-                    <option value="superuser" selected="selected">Super User</option>
-                    <option value="administrator">Administrator</option>
-                    <option value="superadministrator">Super Administrator</option>
-                </select>
-            </span>
-        </div>                    
-        <div class="t0">
-            <span><input type="checkbox"></span>
-            John Smith
-            <span class="right">
-                <select name="usergroup">
-                    <option value="user" selected="selected">User</option>
-                    <option value="superuser">Super User</option>
-                    <option value="administrator">Administrator</option>
-                    <option value="superadministrator">Super Administrator</option>
-                </select>
-            </span>
-        </div>                   
+        </div>                                       
+              
         <form class="t0">
             <span><input type="checkbox"></span>
             <span class="usernames" onclick="javascript:window.location.href='usersnpermissions.php?usernames=George Washington&usersgroup=User'">
@@ -105,7 +46,7 @@
             </span>
         </form>                       
 
-        <div class="t0">
+        <div >
             <div class="inline button">Delete</div>
             <div class="inline button">New</div>
         </div>
