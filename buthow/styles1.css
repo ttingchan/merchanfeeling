@@ -1,8 +1,8 @@
 /* general */
-body, button, textarea {
+body, button, input, textarea {
     font-size: 12px;
     font-family: Verdana, Helvetica, Arial, sans-serif;
-
+color: #310f33
 }
 
 table {
@@ -26,13 +26,13 @@ div, span, table, form, input, textarea, select{
     padding: 5px;
     margin: 5px;   
     border: none;
-    background-color:lavender;
+    background-color:#fec02e;
 }
 select {
     padding: 0 5px;
     margin: 0 5px;
         border: none;
-    background-color:lavender;
+    background-color:#fec02e;
 }
 
 .text1 {
@@ -61,7 +61,7 @@ select{
 } 
 
 option{
-    background-color: lightgrey;
+    background-color: #cec3d8;
 }
 
 .button {
@@ -70,11 +70,11 @@ option{
     width: 100px;
     height: 15px;
     cursor: pointer;
-    background-color: lavender;
+    background-color: #fec02e;
     text-align: center;
     font-weight: bold;
 } .button:hover {
-    background-color: darkgrey;
+    background-color: #aba0b5;
     color: white;
 } .button:active {
     background-color: white;
@@ -121,7 +121,7 @@ p {
     width: 1010px;
     margin: 5px;
     padding: 5px;
-    background-color: lightgray;
+    background-color: #cec3d8;
 }
 /* properties */
 .inline {
@@ -146,7 +146,7 @@ p {
 #create-activities {
     float: right;
     border: none;
-    background-color: lightgrey;
+    background-color: #cec3d8;
     padding: 5px;
     margin: 5px;
 }
@@ -162,7 +162,7 @@ p {
 }
 
 .box2 {
-    background-color: darkgrey;
+    background-color: #aba0b5;
     float: left;
     margin: 5px;
     padding: 5px;
@@ -171,7 +171,7 @@ p {
 }
 
 .panels {
-    background-color: darkgrey;
+    background-color: #aba0b5;
     float: left;
     margin: 5px;
     padding: 5px;
@@ -189,7 +189,7 @@ p {
     float: left;
     padding: 5px;
     margin: 5px;  
-    background-color: lightgray;
+    background-color: #cec3d8;
 }
 
 .collapse, .collapse-1, .collapse-1-1, .collapse-1-2, .collapse-2, .collapse-2-1 {
@@ -205,14 +205,14 @@ p {
 .List tr {
     cursor: pointer;    
 } .List tr:hover{
-    background-color: darkgrey;
+    background-color: #aba0b5;
 }
 
 .List th {
     background-color: #532371;
     color: white; 
 } .List th:hover{
-    background-color: darkgrey;
+    background-color: #aba0b5;
 } .List th:acitve {
     background-color: white;
     color:black;
@@ -231,13 +231,13 @@ p {
     height: 15px;
     margin: 1px;
     padding: 5px;
-    background-color: lavender;
+    background-color: #fec02e;
     text-align: center;
     cursor: pointer;
 }
 
 .pages:hover {
-    background-color: darkgrey;
+    background-color: #aba0b5;
     color: white;
 }
 
@@ -277,7 +277,7 @@ p {
 /* users n permissions */
 .t1, .t2, .t3, .t0 {
     padding: 5px;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #cec3d8;
 }
 
 .t1 span, .t1 span, .t2 span, .t3 span, .t0 span {
