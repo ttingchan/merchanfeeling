@@ -1,8 +1,8 @@
 /* general */
-a, body, button, input, select, textarea {
+body, button, textarea {
     font-size: 12px;
     font-family: Verdana, Helvetica, Arial, sans-serif;
-    color: #310f33;
+
 }
 
 table {
@@ -26,13 +26,13 @@ div, span, table, form, input, textarea, select{
     padding: 5px;
     margin: 5px;   
     border: none;
-    background-color:#fec02e;
+    background-color:lavender;
 }
 select {
     padding: 0 5px;
     margin: 0 5px;
-    border: none;
-    background-color:#fec02e;
+        border: none;
+    background-color:lavender;
 }
 
 .text1 {
@@ -48,7 +48,7 @@ textarea {
     width: 700px;
 }
 select{ 
-
+ 
     outline: none;  
     width: 110px; 
     border: none;
@@ -61,7 +61,7 @@ select{
 } 
 
 option{
-    background-color: #cec3d8;
+    background-color: lightgrey;
 }
 
 .button {
@@ -70,11 +70,11 @@ option{
     width: 100px;
     height: 15px;
     cursor: pointer;
-    background-color: #fec02e;
+    background-color: lavender;
     text-align: center;
     font-weight: bold;
 } .button:hover {
-    background-color: #aba0b5;
+    background-color: darkgrey;
     color: white;
 } .button:active {
     background-color: white;
@@ -83,7 +83,7 @@ option{
 
 a {
     text-decoration: none;
-    color:#310f33;
+    color:black;
 }
 
 h2 {
@@ -121,7 +121,7 @@ p {
     width: 1010px;
     margin: 5px;
     padding: 5px;
-    background-color: #cec3d8;
+    background-color: lightgray;
 }
 /* properties */
 .inline {
@@ -146,7 +146,7 @@ p {
 #create-activities {
     float: right;
     border: none;
-    background-color: #cec3d8;
+    background-color: lightgrey;
     padding: 5px;
     margin: 5px;
 }
@@ -162,7 +162,7 @@ p {
 }
 
 .box2 {
-    background-color: #aba0b5;
+    background-color: darkgrey;
     float: left;
     margin: 5px;
     padding: 5px;
@@ -171,7 +171,7 @@ p {
 }
 
 .panels {
-    background-color: #aba0b5;
+    background-color: darkgrey;
     float: left;
     margin: 5px;
     padding: 5px;
@@ -189,7 +189,7 @@ p {
     float: left;
     padding: 5px;
     margin: 5px;  
-    background-color: #cec3d8;
+    background-color: lightgray;
 }
 
 .collapse, .collapse-1, .collapse-1-1, .collapse-1-2, .collapse-2, .collapse-2-1 {
@@ -205,14 +205,14 @@ p {
 .List tr {
     cursor: pointer;    
 } .List tr:hover{
-    background-color: #aba0b5;
+    background-color: darkgrey;
 }
 
 .List th {
     background-color: #532371;
     color: white; 
 } .List th:hover{
-    background-color: #aba0b5;
+    background-color: darkgrey;
 } .List th:acitve {
     background-color: white;
     color:black;
@@ -231,13 +231,13 @@ p {
     height: 15px;
     margin: 1px;
     padding: 5px;
-    background-color: #fec02e;
+    background-color: lavender;
     text-align: center;
     cursor: pointer;
 }
 
 .pages:hover {
-    background-color: #aba0b5;
+    background-color: darkgrey;
     color: white;
 }
 
@@ -277,7 +277,7 @@ p {
 /* users n permissions */
 .t1, .t2, .t3, .t0 {
     padding: 5px;
-    border-bottom: 1px solid #cec3d8;
+    border-bottom: 1px solid lightgrey;
 }
 
 .t1 span, .t1 span, .t2 span, .t3 span, .t0 span {
