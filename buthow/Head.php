@@ -29,7 +29,7 @@
             </tr>
         </table>
 
-           <table style="background-color: #532371;" class="naviTable">
+        <table style="background-color: #532371;" class="naviTable">
             <tr style="height: 40px;">
                 <td style="width: 550px;">
                     <a href="#" class="navi">  Home  </a>
@@ -60,5 +60,5 @@
                 </td>
             </tr>
         </table>
-        
+
         <div class="container">

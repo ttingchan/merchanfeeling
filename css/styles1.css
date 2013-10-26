@@ -320,8 +320,12 @@ p {
 }
 
 /* Compatible with style.css*/
-.header td {
+.header td, .naviTable {
     text-align: left;
+}
+
+.naviTable{
+    
 }
 
 #Lower {
