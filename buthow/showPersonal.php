@@ -1,4 +1,4 @@
-<?php include 'Head.php' ?>
+
         <div id="Lower">
             <div class="Main">
                 <div>
@@ -59,4 +59,3 @@
 
 
         </div>
-<?php include 'End.php' ?>

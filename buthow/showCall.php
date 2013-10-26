@@ -1,4 +1,4 @@
-<?php include 'Head.php' ?>
+
 <div id="Lower">
     <div id="create-activities">
 
@@ -65,4 +65,4 @@
         </table>
     </div>
 </div>
-<?php include 'End.php' ?>
+

@@ -118,8 +118,15 @@ p {
 
 .Main {
     float: left;
-    width: 1010px;
-    margin: 5px;
+    width: 840px;
+    margin: 5px 0px;
+    padding: 5px;
+    background-color: #cec3d8;
+}
+.Main2{
+        float: left;
+    width: 1000px;
+    margin: 5px 0px;
     padding: 5px;
     background-color: #cec3d8;
 }
@@ -149,6 +156,7 @@ p {
     background-color: #cec3d8;
     padding: 5px;
     margin: 5px;
+
 }
 
 .box1 {
@@ -166,7 +174,7 @@ p {
     float: left;
     margin: 5px;
     padding: 5px;
-    width: 485px;
+    width: 480px;
     text-align: left;
 }
 
@@ -198,7 +206,7 @@ p {
 
 /* .List */
 .List {
-    width: 990px;
+    width: 830px;
     border-collapse: collapse;
 }
 
@@ -248,7 +256,6 @@ p {
 
 /* detail */
 .detail {
-    width: 990px;
     margin: 5px;
     border-collapse: collapse;
     float: none;
@@ -312,3 +319,20 @@ p {
     color: white;
 }
 
+/* Compatible with style.css*/
+.header td {
+    text-align: left;
+}
+
+#Lower {
+
+}
+
+.container {
+    width: 1000px;
+    margin-left: 12%;
+}
+
+.pages {
+    color: #310f33;
+}

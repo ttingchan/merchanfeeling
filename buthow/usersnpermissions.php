@@ -1,7 +1,6 @@
 
-<?php include 'Head.php' ?>
 <div id="Lower">
-    <div class="Main">
+    <div class="Main2">
         <div>
             <h2>Users &amp; Permissions</h2>
         </div>
@@ -14,4 +13,4 @@
     </div>
 
 </div>
-<?php include 'End.php' ?>
+
