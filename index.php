@@ -30,11 +30,11 @@
                             <div class="text" style="float:left"><?php echo _("Login Form"); ?></div>
                        </div>
                        <div class="formbody">
-                            <form action="" method="post">
+                            <form action="funciton/login.php" method="post">
                             <input type="text" name="username" placeholder=<?php echo _("Username"); ?> class="text" style="background:url(image/username.png) no-repeat;" />
                             <input type="password" name="password" placeholder="••••••••••••" class="text" style="background:url(image/password.png) no-repeat;" />
                             <input type="submit" value=<?php echo _("Sign in"); ?> class="submit" style="background-color:  #532371" />
-                            <a href="#"><?php echo _("Forget your password?") ?></a>
+                            <a href="#"><?php echo _("Forget your password?") ?></a> 
                             </form>
                        </div>
                    </div>  
