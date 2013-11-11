@@ -10,11 +10,12 @@
        <?php
        include 'layout/header.php';
        include 'layout/navigationBar.php';
+       require ("international/localization.php");
         ?> 
         <div id="CreateCom">
             
                 <div><b>Create</b></div>
-                <a href="#"><div class="button">New a Contact</div></a>
+                <a href="#"><div class="button"><?php echo _("New a Contact"); ?> </div></a>
                 <a href="#"><div class="button">New a Call</div></a>
                 <a href="#"><div class="button">New a Task</div></a>
                 <a href="#"><div class="button">New a Call</div></a>

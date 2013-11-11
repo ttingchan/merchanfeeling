@@ -5,14 +5,26 @@ body {
 	background: #310f33;        
 	font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
+
 .show{
-	background:url(../image/show_window.png) no-repeat left;
-	cursor:pointer;
-	width:16px;
-	height:16px;
+    width: 1200px;
+    height:16px;
+    float: right;
+    margin-top: 10px;
 }
+
+.show a{
+    text-align: right;
+}
+.show a img{
+    
+    width:30px;
+    height:20px;
+}
+
 #cerceve{
-	margin:150px auto 0 auto;
+	margin-left:400px;
+        margin-top: 150px;
 	width:400px;
 	height:300px;
 }

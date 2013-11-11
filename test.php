@@ -1,31 +1,39 @@
-<?  
+<?php require ("international/localization.php"); ?>
 
-include_once ( 'inc/setLan.php' );   
+<html>
+<head>
+<title>PHP-gettext dropin example</title>
+</head>
+<body>
 
-$domain  =  'test' ;                     //域名，可以任意取个有意义的名字，不过要跟相应的.mo文件的文件名相同（不包括扩展名）。
+<?php
+print "<p>";
+foreach($supported_locales as $l) {
+	print "[<a href=\"?lang=$l\">$l</a>] ";
+}
+print "</p>\n";
+?>
 
-bindtextdomain ( $domain ,  "locale/" ); //设置某个域的mo文件路径    
+<hr />
 
-bind_textdomain_codeset($domain ,  'UTF-8' );  //设置mo文件的编码为UTF-8    
+<?php
+// using PHP-gettext
+print "<pre>";
+print _("This is how the story goes.\n\n");
+/*
+for ($number=6; $number>=0; $number--) {
+  print sprintf(T_ngettext("%d pig went to the market\n", 
+			  "%d pigs went to the market\n", $number), 
+		 $number );
+}*/
+echo _("tingting a des ");
+echo "\n";
+echo "\$locale = ".$locale."\n";
+if(isset($_GET['lang'])) {echo "\$GETLANG = ".$_GET["lang"]."\n";}
+print "</pre>\n";
+?>
 
-textdomain($domain );                    //设置gettext()函数从哪个域去找mo文件    
-
-?>  
-
-<html>  
-
-<head>  
-
-<meta http-equiv="Content-Type"  content= "text/html; charset=utf-8"  />  
-
-<title>title</title>  
-
-</head>  
-
-<body bgcolor="#FFFFFF"  text= "#000000"  link= "#FF9966"  vlink= "#FF9966"  alink= "#FFCC99" >  
-
-<?= gettext ( 'hello world.' ) ?>  
-
-</body>  
-
+<hr />
+<p>&laquo; <a href="./">back</a></p>
+</body>
 </html>
