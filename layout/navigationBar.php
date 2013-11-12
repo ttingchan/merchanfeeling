@@ -1,9 +1,9 @@
 <table style="background-color: #532371;" class="naviTable">
         <tr style="height: 40px;">
             <td style="width: 550px;">
-                <a href="#" class="navi">  Home  </a>
-                <a href="#" class="navi">  Company  </a>
-                <a href="#" class="navi">  Contact  </a>
+                <a href="#" class="navi"> <?php echo _('Home');?>  </a>
+                <a href="#" class="navi"> <?php echo _('Company');?> </a>
+                <a href="#" class="navi"> <?php echo _('Contact');?>  </a>
                 <a href="#" class="navi">  Activity  </a>
             </td>
             <td style="width: 450px;" align="right">
@@ -11,19 +11,19 @@
                     <div id="searchTool" class="searchTool">
                         <form align="right">
                             <span class="choose" hoverable="true">
-                            <span class="chooseList">all</span>
+                            <span class="chooseList"><?php echo _('all');?></span>
                             <b></b>
                             <div class="choosePop">
                                 <ul>
-                                    <li><a href="#" value="0">all</a></li>
-                                    <li><a href="#" value="1">company</a></li>
-                                    <li><a href="#" value="2">contact</a></li>
-                                    <li><a href="#" value="3">activity</a></li>
+                                    <li><a href="#" value="0"><?php echo _('all');?></a></li>
+                                    <li><a href="#" value="1"><?php echo _('company');?></a></li>
+                                    <li><a href="#" value="2"><?php echo _('contact');?> </a></li>
+                                    <li><a href="#" value="3"><?php echo _('activity');?> </a></li>
                                 </ul>
                             </div>
                             </span>
-                            <input class="searchTextInit" placeholder="Enter your search term..." type="text" value="" name="search" id="search">
-                            <input class="searchBtn" type="button" value="search">
+                            <input class="searchTextInit" placeholder="<?php echo _('Enter your search term...');?> " type="text" value="" name="search" id="search">
+                            <input class="searchBtn" type="button" value="<?php echo _('search');?>">
                         </form>
                     </div>
                 </div>

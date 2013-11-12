@@ -9,28 +9,24 @@
 </head>
 <body>
     <?php
+        session_start();
         require ("international/localization.php");
     ?>
     <div>
+        <?php
+            include 'layout/lanBar.php';
+            
+        ?>
+        
         <table>
             <tr>
-                <td width ="300px" colspan="3" style="text-align: right;">
-                    <div class="show">
-                        <a href="?lang=fr_FR"><img src="image/france.jpg" /></a>
-                        <a href="?lnag=en_US"><img src="image/UK.gif" /></a>
-                        <a href="?lang=zh_CN"><img src="image/china.jpg"/></a>
-                        <a href="#"><img src="image/italy.gif"/></a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3" style="text-align: center;">
+                <td width ="300px" colspan="3" style="text-align: center;">
                    <div id="cerceve">
                        <div class="login">
                             <div class="text" style="float:left"><?php echo _("Login Form"); ?></div>
                        </div>
                        <div class="formbody">
-                            <form action="funciton/login.php" method="post">
+                            <form action="function/login.php" method="post">
                             <input type="text" name="username" placeholder=<?php echo _("Username"); ?> class="text" style="background:url(image/username.png) no-repeat;" />
                             <input type="password" name="password" placeholder="••••••••••••" class="text" style="background:url(image/password.png) no-repeat;" />
                             <input type="submit" value=<?php echo _("Sign in"); ?> class="submit" style="background-color:  #532371" />

@@ -28,7 +28,7 @@ for ($number=6; $number>=0; $number--) {
 }*/
 echo _("tingting a des ");
 echo "\n";
-echo "\$locale = ".$locale."\n";
+echo "\$locale = ".$locale;
 if(isset($_GET['lang'])) {echo "\$GETLANG = ".$_GET["lang"]."\n";}
 print "</pre>\n";
 ?>

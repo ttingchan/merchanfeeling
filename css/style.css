@@ -79,8 +79,11 @@ a{
     text-decoration: none;
     color: black;
 }
+.headerBar{
+    margin-left: 12%;
+}
 
-.header,.naviTable{
+.header, .naviTable{
     margin-left: 12%;
     font-weight:bold;
 }

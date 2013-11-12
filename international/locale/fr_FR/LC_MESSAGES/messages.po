@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
-"POT-Creation-Date: 2013-11-11 21:29+0100\n"
-"PO-Revision-Date: 2013-11-11 21:30+0100\n"
+"POT-Creation-Date: 2013-11-12 00:56+0100\n"
+"PO-Revision-Date: 2013-11-12 01:00+0100\n"
 "Last-Translator: tting <chts126@126.com>\n"
 "Language-Team: \n"
 "Language: French\n"
@@ -19,19 +19,19 @@ msgstr ""
 msgid "New a Contact"
 msgstr ""
 
-#: C:\wamp\www\merchanfeeling/index.php:30
+#: C:\wamp\www\merchanfeeling/index.php:27
 msgid "Login Form"
 msgstr "S'inscrire"
 
-#: C:\wamp\www\merchanfeeling/index.php:34
+#: C:\wamp\www\merchanfeeling/index.php:31
 msgid "Username"
 msgstr "L'utilisateur"
 
-#: C:\wamp\www\merchanfeeling/index.php:36
+#: C:\wamp\www\merchanfeeling/index.php:33
 msgid "Sign in"
 msgstr "Connecter"
 
-#: C:\wamp\www\merchanfeeling/index.php:37
+#: C:\wamp\www\merchanfeeling/index.php:34
 msgid "Forget your password?"
 msgstr "Le mot de pass?"
 
@@ -44,3 +44,44 @@ msgstr ""
 #: C:\wamp\www\merchanfeeling/test.php:29
 msgid "tingting a des "
 msgstr ""
+
+#: C:\wamp\www\merchanfeeling/layout/header.php:7
+msgid "settings"
+msgstr "paramètre "
+
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:4
+msgid "Home"
+msgstr "Accueil "
+
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:5
+msgid "Company"
+msgstr "Entreprise "
+
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:6
+msgid "Contact"
+msgstr "Contact "
+
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:14
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:18
+msgid "all"
+msgstr "tout"
+
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:19
+msgid "company"
+msgstr "entreprise "
+
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:20
+msgid "contact"
+msgstr "contact"
+
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:21
+msgid "activity"
+msgstr "activité "
+
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:25
+msgid "Enter your search term..."
+msgstr "taper les mots-clés "
+
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:26
+msgid "search"
+msgstr "recherche "
