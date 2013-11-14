@@ -4,7 +4,7 @@
                 <a href="Homepage.php?lang=<?php echo $_SESSION['lang']; ?>" class="navi"> <?php echo _('Home');?>  </a>
                 <a href="ListCompany.php" class="navi"> <?php echo _('Company');?> </a>
                 <a href="ListContact.php" class="navi"> <?php echo _('Contact');?>  </a>
-                <a href="_showactivities.php" class="navi"> <?php echo _('Activity');?>  </a>
+                <a href="__showactivities.php" class="navi"> <?php echo _('Activity');?>  </a>
             </td>
             <td style="width: 450px;" align="right">
                 <div class="searchdiv" >

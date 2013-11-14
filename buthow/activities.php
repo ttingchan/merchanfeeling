@@ -2,9 +2,9 @@
         <div id="Lower">
             <div id="create-activities">
                 <div><b>Create</b></div>
-                <a href="#"><div class="button">New Task</div></a>
-                <a href="#"><div class="button">New Event</div></a>
-                <a href="#"><div class="button">New Call</div></a>
+                <a href="./__newTask.php"><div class="button">New Task</div></a>
+                <a href="./__newEvent.php"><div class="button">New Event</div></a>
+                <a href="./__newCall.php"><div class="button">New Call</div></a>
             </div>
             <div>
                 <form id="activity-filters" name="activity-filters"  method="post">

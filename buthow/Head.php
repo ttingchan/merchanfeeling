@@ -18,10 +18,10 @@
         <table class="header" >
             <tr>
                 <td class="logobar" style="width: 860px;">
-                    <a href="#"><image  class="logo" src="image/logo1-1.png"/></a>  
+                    <a href="./Homepage.php"><image  class="logo" src="image/logo1-1.png"/></a>  
                 </td>
                 <td style="width: 80px;" align="center" style="margin-right: 10px;">
-                    <div class="settings"><a href="#">settings</a></div>
+                    <div class="settings"><a href="./__settings.php">settings</a></div>
                 </td>
                 <td style="width: 60px;" align="right" style="margin-right: 5px;"> 
                     <div><a href="#"><image class="profile" src="image/profile.png"/></a></div>
@@ -32,10 +32,10 @@
         <table style="background-color: #532371;" class="naviTable">
             <tr style="height: 40px;">
                 <td style="width: 550px;">
-                    <a href="#" class="navi">  Home  </a>
-                    <a href="#" class="navi">  Company  </a>
-                    <a href="#" class="navi">  Contact  </a>
-                    <a href="#" class="navi">  Activity  </a>
+                    <a href="./Homepage.php" class="navi">  Home  </a>
+                    <a href="./ListCompany.php" class="navi">  Company  </a>
+                    <a href="./ListContact.php" class="navi">  Contact  </a>
+                    <a href="./__showactivities.php" class="navi">  Activity  </a>
                 </td>
                 <td style="width: 450px;" align="right">
                     <div class="searchdiv" >

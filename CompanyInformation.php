@@ -5,20 +5,28 @@
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link rel="icon" href="image/merchanfeeling.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="image/merchanfeeling.ico" type="image/x-icon" />
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>">
+<script src="js/modernizr.custom.js"></script>
+<script src="js/profileRep.js"></script>
 </head>
     <body>
        <?php
+       
+       session_start();
+       require 'international/localization.php';
+       include 'layout/lanBar.php';
        include 'layout/header.php';
        include 'layout/navigationBar.php';
-       require ("international/localization.php");
+       
         ?> 
         <div id="CreateCom">
             
                 <div><b>Create</b></div>
-                <a href="#"><div class="button"><?php echo _("New a Contact"); ?> </div></a>
-                <a href="#"><div class="button">New a Call</div></a>
-                <a href="#"><div class="button">New a Task</div></a>
-                <a href="#"><div class="button">New a Call</div></a>
+                <a href="NewContact.php"><div class="button"><?php echo _("New a Contact"); ?> </div></a>
+                <a href="__newCall.php"><div class="button">New a Call</div></a>
+                <a href=__newTask.php"><div class="button">New a Task</div></a>
+                <a href="__newEvent.php"><div class="button">New a Event</div></a>
                 
         </div>
         <div class="comContent">

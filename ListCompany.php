@@ -16,12 +16,13 @@
        <?php
        session_start();
        require 'international/localization.php';
+       include 'layout/lanBar.php';
        include 'layout/header.php';
        include 'layout/navigationBar.php';
         ?> 
         <div id="CreateCom">
                 <div><b>Create</b></div>
-                <a href="#"><div class="button">New Company</div></a>
+                <a href="NewCompany.php"><div class="button">New Company</div></a>
         </div>
         <div class="comContent">
                        
@@ -64,7 +65,7 @@
                     <tr>
                         <td></td>
                         <td><input type="checkbox" name="record1"></td>
-                        <td>L'oreal</td>
+                        <td><a href="CompanyInformation.php">L'oreal</a></td>
                         <td>France</td>
                         <td>Paris</td>
                         <td>Add1</td>

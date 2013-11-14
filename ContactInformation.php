@@ -5,9 +5,16 @@
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link rel="icon" href="image/merchanfeeling.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="image/merchanfeeling.ico" type="image/x-icon" />
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>">
+<script src="js/modernizr.custom.js"></script>
+<script src="js/profileRep.js"></script>
 </head>
     <body>
        <?php
+       session_start();
+       require 'international/localization.php';
+       include 'layout/lanBar.php';
        include 'layout/header.php';
        include 'layout/navigationBar.php';
         ?> 

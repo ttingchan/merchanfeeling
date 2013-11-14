@@ -22,7 +22,7 @@
         ?> 
         <div id="CreateCom">
                 <div><b>Create</b></div>
-                <a href="#"><div class="button">New Contact</div></a>
+                <a href="NewContact.php"><div class="button">New Contact</div></a>
         </div>
         <div class="comContent">
                        
@@ -63,7 +63,7 @@
                     <tr>
                         <td></td>
                         <td><input type="checkbox" name="record1"></td>
-                        <td>Pierre</td>
+                        <td><a href="ContactInformation.php">Pierre</a></td>
                         <td>076091111</td>
                         <td>tting@gmail.com</td>
                     </tr>                   
