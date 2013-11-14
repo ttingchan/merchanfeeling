@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
-"POT-Creation-Date: 2013-11-12 00:55+0100\n"
-"PO-Revision-Date: 2013-11-12 00:55+0100\n"
+"POT-Creation-Date: 2013-11-13 09:48+0100\n"
+"PO-Revision-Date: 2013-11-13 09:52+0100\n"
 "Last-Translator: tting <chts126@126.com>\n"
 "Language-Team: \n"
 "Language: Chinese\n"
@@ -17,23 +17,48 @@ msgstr ""
 
 #: C:\wamp\www\merchanfeeling/CompanyInformation.php:18
 msgid "New a Contact"
-msgstr ""
+msgstr "新建联系人"
 
-#: C:\wamp\www\merchanfeeling/index.php:27
+#: C:\wamp\www\merchanfeeling/index.php:33
+#: C:\wamp\www\merchanfeeling/PasswordFound.php:31
+msgid "incorrect user mail or password."
+msgstr "用户名或密码不正确。"
+
+#: C:\wamp\www\merchanfeeling/index.php:35
+msgid "empty user mail."
+msgstr "邮箱为空。"
+
+#: C:\wamp\www\merchanfeeling/index.php:37
+msgid "empty password."
+msgstr "密码为空。"
+
+#: C:\wamp\www\merchanfeeling/index.php:50
 msgid "Login Form"
 msgstr "登录"
 
-#: C:\wamp\www\merchanfeeling/index.php:31
+#: C:\wamp\www\merchanfeeling/index.php:54
 msgid "Username"
 msgstr "用户名"
 
-#: C:\wamp\www\merchanfeeling/index.php:33
+#: C:\wamp\www\merchanfeeling/index.php:56
 msgid "Sign in"
 msgstr "登录"
 
-#: C:\wamp\www\merchanfeeling/index.php:34
+#: C:\wamp\www\merchanfeeling/index.php:57
 msgid "Forget your password?"
 msgstr "忘记密码？"
+
+#: C:\wamp\www\merchanfeeling/PasswordFound.php:43
+msgid "Forgot Password"
+msgstr "忘记密码"
+
+#: C:\wamp\www\merchanfeeling/PasswordFound.php:47
+msgid "EMail"
+msgstr "邮箱地址"
+
+#: C:\wamp\www\merchanfeeling/PasswordFound.php:48
+msgid "Submit"
+msgstr "发送"
 
 #: C:\wamp\www\merchanfeeling/test.php:22
 msgid ""
@@ -49,6 +74,10 @@ msgstr ""
 msgid "settings"
 msgstr "设置"
 
+#: C:\wamp\www\merchanfeeling/layout/header.php:22
+msgid "Logout"
+msgstr "退出"
+
 #: C:\wamp\www\merchanfeeling/layout/navigationBar.php:4
 msgid "Home"
 msgstr "首页"
@@ -60,6 +89,10 @@ msgstr "公司"
 #: C:\wamp\www\merchanfeeling/layout/navigationBar.php:6
 msgid "Contact"
 msgstr "联系人"
+
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:7
+msgid "Activity"
+msgstr "活动"
 
 #: C:\wamp\www\merchanfeeling/layout/navigationBar.php:14
 #: C:\wamp\www\merchanfeeling/layout/navigationBar.php:18

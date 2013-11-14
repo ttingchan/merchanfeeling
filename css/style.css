@@ -22,11 +22,29 @@ body {
     height:20px;
 }
 
+.loginPanel{
+        margin-top: 150px;
+}
+.failLog{
+    margin-left: 400px;
+    padding-top: 20px;
+    width:400px;
+    height:40px;
+    background:#efd0d0;
+  /*  background-image:url(../image/formbody.png);*/
+    border-style: solid;
+    border-color: #911;
+    border-width: 1px;
+    color:#911;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
 #cerceve{
 	margin-left:400px;
-        margin-top: 150px;
 	width:400px;
 	height:300px;
+        
 }
 .login{
 	
@@ -69,15 +87,28 @@ form .submit{
 	border:0;
 }
 form a{
-	text-decoration:none;
-	color:#a9a9bc;
+        color:#532371;
+	text-decoration:none;	
 	font-size:14px;
 	font-weight:bold;
-	text-shadow:1px 1px rgba(255,255,255,0.75);
+/*	text-shadow:1px 1px rgba(53,16,56,0.5);*/
 }
 a{
     text-decoration: none;
     color: black;
+}
+form a:link,form a:visited{
+    text-decoration:none;
+    color:#532371;
+}
+
+form a:active{
+    text-decoration: blink;
+}
+
+form a:hover { 
+    text-decoration:underline;
+    color:#532371;
 }
 .headerBar{
     margin-left: 12%;
@@ -100,7 +131,7 @@ a{
 
 a:link,a:visited{
     text-decoration:none;
-    color: white;
+    color:white;
 }
 
 a:active{
@@ -108,13 +139,58 @@ a:active{
 }
 
 a:hover { 
-    text-decoration:none;
-    color: white;
+    text-decoration:underline;
+    color:white;
 }
 
 .settings a:hover,.settings a:visited{
     color: white;
 }
+
+.profileLink:hover,.profileLink:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.image{
+    width: 100px;
+    height:100px;
+    background-image: url("../image/profile.png");
+    background-repeat:space;
+}
+
+.changeImage{
+    width: 100px;
+    height: 20px;
+    background-color: rgba(255,255,255,0);
+    color: white;
+    font-weight: lighter;
+    text-align: center;   
+}
+
+.showRep{
+    position: absolute;
+    right: 9%;
+    top: 125px;
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    border:1px solid blueviolet;
+    color: black;
+}
+.profileInfo a:hover,.profileInfo a:visited{
+    color: black;
+    text-decoration: none;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(83,35,113,0.6);
+    border-style: none;
+}
+
 .navi{
     margin-left: 5px;
     margin-right: 15px;
