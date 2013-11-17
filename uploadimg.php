@@ -50,6 +50,12 @@ div img{
     
 }
 </style>
+<script>
+   function iframeTip()
+   {
+       var cid = document.getElementById('photoTxt');
+   }
+</script>
 <?php 
     require 'international/localization.php';
 ?>
@@ -58,7 +64,7 @@ div img{
         <table>
             <tr>
                 <td height="40" weight="800">
-                    <div class="photoTxt">
+                    <div class="photoTxt" id="photoTxt">
                         <span><?php echo _("Select Photo"); ?></span>
                         <img class="winClose" src="image/window-close.png"/>
                     </div>

@@ -4,12 +4,12 @@
     <title>Companies</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/styles1.css" rel="stylesheet" type="text/css" />
-    <script src="js/jquery.min.js"></script>
-    <script src="buthow/activities.js"></script>
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>">
     <script src="js/modernizr.custom.js"></script>
     <script src="js/profileRep.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/activities.js"></script>
     <link rel="icon" href="image/merchanfeeling.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="image/merchanfeeling.ico" type="image/x-icon" />
 </head>

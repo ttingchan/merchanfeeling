@@ -11,7 +11,7 @@
                     <div>
                         <div class="inline"><b>Keywords:</b><input type="text" name="keywords" class="text1"></div>
                         <a href="#"><div class="button inline">Apply</div></a>
-                        <a href="#"><div class="button inline flip">能用？？？？？？？</div></a>
+                        <a href="#"><div class="button inline flip">Acdvanced</div></a>
 
                     </div>
                     <div class="collapse">

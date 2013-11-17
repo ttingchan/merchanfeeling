@@ -3,6 +3,9 @@ $(document).ready(function(){
     $(".flip").click(function(){
         $(".collapse").slideToggle("fast");
     });
+    $(".flip").click(function(){
+        $(".collapse1").slideToggle("fast");
+    });
     $(".flip-1").click(function(){
         $(".collapse-1").slideToggle("fast");
     });

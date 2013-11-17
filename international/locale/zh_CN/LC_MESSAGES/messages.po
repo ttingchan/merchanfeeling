@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
-"POT-Creation-Date: 2013-11-13 09:48+0100\n"
-"PO-Revision-Date: 2013-11-13 09:52+0100\n"
+"POT-Creation-Date: 2013-11-17 15:05+0100\n"
+"PO-Revision-Date: 2013-11-17 15:06+0100\n"
 "Last-Translator: tting <chts126@126.com>\n"
 "Language-Team: \n"
 "Language: Chinese\n"
@@ -15,9 +15,54 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: C:\\wamp\\www\\merchanfeeling\n"
 
-#: C:\wamp\www\merchanfeeling/CompanyInformation.php:18
+#: C:\wamp\www\merchanfeeling/CompanyInformation.php:27
 msgid "New a Contact"
 msgstr "新建联系人"
+
+#: C:\wamp\www\merchanfeeling/Homepage.php:24
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:5
+msgid "Company"
+msgstr "公司"
+
+#: C:\wamp\www\merchanfeeling/Homepage.php:37
+msgid "Create a new company"
+msgstr "创建一个新公司"
+
+#: C:\wamp\www\merchanfeeling/Homepage.php:42
+msgid "List current company"
+msgstr "当前公司"
+
+#: C:\wamp\www\merchanfeeling/Homepage.php:50
+#: C:\wamp\www\merchanfeeling/Homepage.php:82
+#: C:\wamp\www\merchanfeeling/Homepage.php:115
+msgid "more..."
+msgstr "更多..."
+
+#: C:\wamp\www\merchanfeeling/Homepage.php:56
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:6
+msgid "Contact"
+msgstr "联系人"
+
+#: C:\wamp\www\merchanfeeling/Homepage.php:69
+msgid "Create a new Contact"
+msgstr "新建联系人"
+
+#: C:\wamp\www\merchanfeeling/Homepage.php:74
+msgid "List current contacts"
+msgstr "当前联系人"
+
+#: C:\wamp\www\merchanfeeling/Homepage.php:89
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:7
+msgid "Activity"
+msgstr "活动"
+
+#: C:\wamp\www\merchanfeeling/Homepage.php:102
+msgid "Create a new Activity"
+msgstr "创建新活动"
+
+#: C:\wamp\www\merchanfeeling/Homepage.php:107
+msgid "List current activity"
+msgstr "当前活动"
 
 #: C:\wamp\www\merchanfeeling/index.php:33
 #: C:\wamp\www\merchanfeeling/PasswordFound.php:31
@@ -70,11 +115,15 @@ msgstr ""
 msgid "tingting a des "
 msgstr ""
 
-#: C:\wamp\www\merchanfeeling/layout/header.php:7
+#: C:\wamp\www\merchanfeeling/uploadimg.php:68
+msgid "Select Photo"
+msgstr "选择一张图片"
+
+#: C:\wamp\www\merchanfeeling/layout/header.php:8
 msgid "settings"
 msgstr "设置"
 
-#: C:\wamp\www\merchanfeeling/layout/header.php:22
+#: C:\wamp\www\merchanfeeling/layout/header.php:29
 msgid "Logout"
 msgstr "退出"
 
@@ -82,39 +131,27 @@ msgstr "退出"
 msgid "Home"
 msgstr "首页"
 
-#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:5
-msgid "Company"
-msgstr "公司"
-
-#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:6
-msgid "Contact"
-msgstr "联系人"
-
-#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:7
-msgid "Activity"
-msgstr "活动"
-
 #: C:\wamp\www\merchanfeeling/layout/navigationBar.php:14
-#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:18
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:17
 msgid "all"
 msgstr "全部"
 
-#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:19
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:18
 msgid "company"
 msgstr "公司"
 
-#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:20
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:19
 msgid "contact"
 msgstr "联系人"
 
-#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:21
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:20
 msgid "activity"
 msgstr "活动"
 
-#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:25
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:24
 msgid "Enter your search term..."
 msgstr "输入关键词"
 
-#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:26
+#: C:\wamp\www\merchanfeeling/layout/navigationBar.php:25
 msgid "search"
 msgstr "搜索"

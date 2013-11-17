@@ -20,13 +20,117 @@
         ?> 
     
     <div class="content">
-        <div class="companyPart">
-            <p>company</p>
-            <input type="file" name="image" id="image"  />
+        <div>
+        <div class="ModePart" id="companyPart">
+            <div class="spanDiv">
+                <a class="modeLink" href="ListCompany.php?lang=<?php echo $_SESSION['lang']; ?>"><?php echo _("Company") ?></a>   
+                <img class="comDelete" src="image/delete.png"/>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td width="180" align="center">
+                            <a>
+                                <img class="modeImg" src="image/company.jpg"/>
+                            </a>
+                        </td>
+                        <td width="300" align="center">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a class="modeLink" href="NewCompany.php?lang=<?php echo $_SESSION['lang']; ?>"><?php echo _("Create a new company") ?></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="modeLink" href="ListCompany.php?lang=<?php echo $_SESSION['lang']; ?>"><?php echo _("List current company") ?></a>
+                                    </td>
+                                </tr>
+                            </table>                        
+                        </td>
+                    </tr>
+                    <tr>             
+                        <td align="right" colspan="2">
+                            <a class="modeLink" href="ListCompany.php?lang=<?php echo $_SESSION['lang']; ?>"><?php echo _("more...") ?></a></td>
+                    </tr>
+                </table>
+            </div>
         </div>
-        <div class="contactPart"></div>
-        <div class="activityPart"></div>
-        <div></div>
+        <div class="ModePart" id="contactPart">
+            <div class="spanDiv">
+                <a class="modeLink" href="#"><?php echo _("Contact") ?></a>
+                <img class="conDelete" src="image/delete.png"/>
+            </div>  
+            <div>
+                <table>
+                    <tr>
+                        <td width="180" align="center">
+                            <a>
+                                <img class="modeImg" src="image/contact.jpg"/>
+                            </a>
+                        </td>
+                        <td width="300" align="center">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a class="modeLink" href="#"><?php echo _("Create a new Contact") ?></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="modeLink" href="#"><?php echo _("List current contacts") ?></a>
+                                    </td>
+                                </tr>
+                            </table>                                             
+                        </td>
+                    </tr>
+                    <tr>             
+                        <td align="right" colspan="2">
+                            <a class="modeLink" href="#"><?php echo _("more...") ?></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <div class="ModePart" id="activityPart">
+            <div class="spanDiv">
+                <a class="modeLink" href="#"><?php echo _("Activity") ?></a>
+                <img class="actDelete" src="image/delete.png"/>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td width="180" align="center">
+                            <a>
+                                <img class="modeImg" src="image/activity.jpg"/>
+                            </a>
+                        </td>
+                        <td width="300" align="center">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a class="modeLink" href="#"><?php echo _("Create a new Activity") ?></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="modeLink" href="#"><?php echo _("List current activity") ?></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>             
+                        <td align="right" colspan="2">
+                            <a class="modeLink" href="#"><?php echo _("more...") ?></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+            <div>
+                
+            </div>
+        </div>
     </div>
     <!--
     <script src="js/classie.js"></script>
