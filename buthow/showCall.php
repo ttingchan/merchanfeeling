@@ -1,6 +1,6 @@
 
 <div id="Lower">
-    <div id="create-activities">
+    <div class="createSide">
 
         <div><b>Create</b></div>
         <div class="button">New Task</div>

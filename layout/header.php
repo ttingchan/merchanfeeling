@@ -1,5 +1,5 @@
 <iframe src="./uploadimg.php"></iframe>
-<table class="headerBar" >
+<table class="header" >
         <tr>
             <td class="logobar" style="width: 860px;">
                 <a href="Homepage.php?lang=<?php echo ($_SESSION['lang']); ?>" ><image  class="logo" src="image/logo1-1.png"/></a>  
@@ -35,10 +35,4 @@
         </tr>
     </table>       
 
-<?php
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-?>

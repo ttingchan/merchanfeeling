@@ -12,7 +12,6 @@
                         <form align="right">
                             <span class="choose" hoverable="true">
                             <span class="chooseList"><?php echo _('all');?></span>
-                            <b></b>
                             <div class="choosePop">
                                 <ul>
                                     <li><a href="#" value="0"><?php echo _('all');?></a></li>

@@ -1,8 +1,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Company</title>
+<title>New Company</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/styles1.css" rel="stylesheet" type="text/css" />
 <link rel="icon" href="image/merchanfeeling.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="image/merchanfeeling.ico" type="image/x-icon" />
 <script src="js/modernizr.custom.js"></script>
@@ -19,65 +20,72 @@
        include 'layout/header.php';
        include 'layout/navigationBar.php';
         ?>     
-   
-    <p>test</p>
-    <div class="content">
+        <div class="container">
+            <div id="Lower">
+                <div class="createSide">
+                    <div><b>Create</b></div>
+                    <div class="button">New Contact</div>
+                </div>
+                <div class="Main">
         <form method="get" class="create">
-            <fieldset>
-                <legend><b>Create a Company</b></legend>
-                <table class="createForm">
+            
+                <div><h2>Create a Company</h2></div>
+                <table class="detail">
                     <tr>
-                        <td width="100px" height="40px"><b>Name:</b></td>
-                        <td height="40px"><input class="inputForm" type="text" name="comName" placehoder="input a name"/></td>
+                        <td class="tdl">Name:</td>
+                        <td><input class="text1" type="text" name="comName" placehoder="input a name"/></td>
                     </tr>
 
                     <tr>
-                        <td><b>Parent company:</b></td>
-                        <td><input class="inputForm" type="text" name="parCom" /></td>
+                        <td class="tdl">Parent company:</td>
+                        <td><input class="text1" type="text" name="parCom" /></td>
                     </tr>
 
                     <tr>
-                        <td><b>Country</b></td>
-                        <td><input class="inputForm" type="text" name="comCountry" /></td>
+                        <td class="tdl">Country</td>
+                        <td><input class="text1" type="text" name="comCountry" /></td>
                     </tr>
 
                     <tr>
-                        <td><b>City</b></td>
-                        <td><input class="inputForm" type="text" name="comCity"/></td>
+                        <td class="tdl">City</td>
+                        <td><input class="text1" type="text" name="comCity"/></td>
                     </tr>
 
                     <tr>
-                        <td><b>Zip</b></td>
-                        <td><input class="inputForm" type="text" name="comZip"/></td>
+                        <td class="tdl">Zip</td>
+                        <td><input class="text1" type="text" name="comZip"/></td>
                     </tr>
 
                     <tr>
-                        <td><b>Address</b></td>
-                        <td><input class="inputForm" type="text" name="comAdd"/></td>
+                        <td class="tdl">Address</td>
+                        <td><input class="text1" type="text" name="comAdd"/></td>
                     </tr>
 
                     <tr>
-                        <td><b>Tel</b></td>
-                        <td><input class="inputForm" type="text" name="comTel" /></td>
+                        <td class="tdl">Tel</td>
+                        <td><input class="text1" type="text" name="comTel" /></td>
                     </tr>
 
                     <tr>
-                        <td><b>Website</b></td>
-                        <td><input class="inputForm" type="text" name="comWeb"/></td>
+                        <td class="tdl">Website</td>
+                        <td><input class="text1" type="text" name="comWeb"/></td>
                     </tr>
 
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                            <input class="buttonForm" type="button" name="save" value="save" />
-                            <input class="buttonForm" type="button" name="cancel" value="cancel" />
-                        </td>
-                    </tr>
+                                  <tr>
+                                <td class="tdl">Description</td>
+                                <td><textarea></textarea></td>
+                            </tr>
                 </table>
-            </fieldset>
+                     <div>
+                         <div class="button inline"  name="save" value="save">Save</div>
+                         <div class="button inline"  name="cancel" value="cancel">Cancel</div>
+                 </div>
+                    
         </form>
     </div>
-
+            </div>
+            </div>
+    
 </body>
 </html>
 <?php

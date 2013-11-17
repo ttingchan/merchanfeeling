@@ -26,13 +26,13 @@ div, span, table, form, input, textarea, select{
     padding: 5px;
     margin: 5px;   
     border: none;
-    background-color:lightgrey;
+    background-color:lavender;
 }
 select {
     padding: 0 5px;
     margin: 0 5px;
         border: none;
-    background-color:lightgrey;
+    background-color:lavender;
 }
 
 .text1 {
@@ -45,12 +45,12 @@ select {
 
 textarea {
     height: 50px;
-    width: 700px;
+    width: 500px;
 }
 select{ 
  
     outline: none;  
-    width: 110px; 
+    width: 120px; 
     border: none;
     border-radius: 5px; 
     display: inline-block; 
@@ -70,7 +70,7 @@ option{
     width: 100px;
     height: 15px;
     cursor: pointer;
-    background-color: #fec02e;
+    background-color: lavender;
     text-align: center;
     font-weight: bold;
 } .button:hover {
@@ -150,7 +150,7 @@ p {
 }
 
 /* components */
-#create-activities {
+.createSide {
     float: right;
     border: none;
     background-color: #cec3d8;
@@ -193,7 +193,7 @@ p {
 }
 
 /* activities */
-#activity-filters {
+.filters {
     float: left;
     padding: 5px;
     margin: 5px;  
@@ -239,7 +239,7 @@ p {
     height: 15px;
     margin: 1px;
     padding: 5px;
-    background-color: #fec02e;
+    background-color: lavender;
     text-align: center;
     cursor: pointer;
 }
@@ -270,6 +270,8 @@ p {
 .tdl {
     color: #532371;
     width: 180px;
+    font-weight: bold;
+    
 }
 
 .note {

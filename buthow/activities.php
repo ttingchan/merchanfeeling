@@ -1,17 +1,17 @@
 
         <div id="Lower">
-            <div id="create-activities">
+            <div class="createSide">
                 <div><b>Create</b></div>
                 <a href="./__newTask.php"><div class="button">New Task</div></a>
                 <a href="./__newEvent.php"><div class="button">New Event</div></a>
                 <a href="./__newCall.php"><div class="button">New Call</div></a>
             </div>
             <div>
-                <form id="activity-filters" name="activity-filters"  method="post">
+                <form class="filters" name="activity-filters"  method="post">
                     <div>
                         <div class="inline"><b>Keywords:</b><input type="text" name="keywords" class="text1"></div>
                         <a href="#"><div class="button inline">Apply</div></a>
-                        <a href="#"><div class="button inline flip">Advanced</div></a>
+                        <a href="#"><div class="button inline flip">能用？？？？？？？</div></a>
 
                     </div>
                     <div class="collapse">

@@ -1,8 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">   
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Contact</title>
+<title>Contact Info</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/styles1.css" rel="stylesheet" type="text/css" />
 <link rel="icon" href="image/merchanfeeling.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="image/merchanfeeling.ico" type="image/x-icon" />
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
@@ -18,14 +19,16 @@
        include 'layout/header.php';
        include 'layout/navigationBar.php';
         ?> 
-        <div id="CreateCom">
+        <div class="container">
+            <div id="Lower">
+        <div class="createSide">
             
                 <div><b>Create</b></div>
                 <a href="#"><div class="button">New a Contact</div></a>
                 <a href="#"><div class="button">New a Call</div></a>
                 <a href="#"><div class="button">New a Task</div></a>               
         </div>
-        <div class="comContent">
+
             <div class="operation">
                 <div class="button inline">Return</div>
                 <div class="button inline">Delete</div>
@@ -33,7 +36,7 @@
                 <div class="button inline">Setting</div>
             </div>
             
-            <div class="comMain">           
+            <div class="Main">           
                 <table id="company" class="List">
                     <tr>
                         <th colspan="2">Pierre</th>
@@ -113,7 +116,7 @@
                                             <textarea placehoder="add a note"></textarea>
                                         </td>
                                         <td>
-                                            <input type="button" value="add a note"/>
+                                            <div class="button" value="add a note">Add a note</>
                                         </td>
                                     </form>
                                 </tr>
@@ -175,5 +178,7 @@
 
                 </table> 
             </div>
-        </div>
+
+                </div>
+            </div>
     </body>

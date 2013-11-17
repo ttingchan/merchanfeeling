@@ -4,7 +4,7 @@
     <div class="scroll-panel" id="users">
         <div class="t0">
             <span><input type="checkbox"></span>
-            <span class="usernames" onclick="javascript:window.location.href='usersnpermissions.php?usernames=Meng Li&usersgroup=Administrator'">
+            <span class="usernames" onclick="javascript:window.location.href='__usersnpermissions.php?usernames=Meng Li&usersgroup=Administrator'">
                 Meng Li
             </span>
             <span class="right">
@@ -18,7 +18,7 @@
         </div>
         <div class="t0">
             <span><input type="checkbox"></span>
-            <span class="usernames" onclick="javascript:window.location.href='usersnpermissions.php?usernames=John Smith&usersgroup=Super User'">
+            <span class="usernames" onclick="javascript:window.location.href='__usersnpermissions.php?usernames=John Smith&usersgroup=Super User'">
                 John Smith
             </span>
             <span class="right">
@@ -33,7 +33,7 @@
               
         <form class="t0">
             <span><input type="checkbox"></span>
-            <span class="usernames" onclick="javascript:window.location.href='usersnpermissions.php?usernames=George Washington&usersgroup=User'">
+            <span class="usernames" onclick="javascript:window.location.href='__usersnpermissions.php?usernames=George Washington&usersgroup=User'">
                 George Washington
             </span>
             <span class="right">
