@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Merchanfeeling</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/styles1.css" rel="stylesheet" type="text/css" />
 <link rel="icon" href="image/merchanfeeling.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="image/merchanfeeling.ico" type="image/x-icon" />
 </head>
@@ -15,7 +16,6 @@
     <div>
         <?php
             include 'layout/lanBar.php';
-            
         ?>
         
         <table class="loginPanel">

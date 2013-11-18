@@ -3,6 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Home Page</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/styles1.css" rel="stylesheet" type="text/css" />
 <link rel="icon" href="image/merchanfeeling.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="image/merchanfeeling.ico" type="image/x-icon" />
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
@@ -19,22 +20,36 @@
        include 'layout/navigationBar.php';
         ?> 
     
-    <div class="content">
-        <div>
-        <div class="ModePart" id="companyPart">
-            <div class="spanDiv">
-                <a class="modeLink" href="ListCompany.php?lang=<?php echo $_SESSION['lang']; ?>"><?php echo _("Company") ?></a>   
-                <img class="comDelete" src="image/delete.png"/>
+    <div class="container">
+
+        <div id="Lower">
+                        <div class="createSide">
+                <div><b>你看着办吧</b></div>
+                                <a href="./__newTask.php"><div class="button">哦哦哦</div></a>
+                <a href="./__newEvent.php"><div class="button">哦哦哦2</div></a>
+                <br />
+                <a href="./__newTask.php"><div class="button">哦哦3</div></a>
+                <a href="./__newEvent.php"><div class="button">哦哦4</div></a>
+                <a href="./__newCall.php"><div class="button">哦哦哦9</div></a>
+                
+                
+
+
             </div>
+        <div class="ModePart" id="companyPart">
+
+                <h2><a class="modeLink" href="ListCompany.php?lang=<?php echo $_SESSION['lang']; ?>"><?php echo _("Company") ?></a>   
+                <img class="comDelete" src="image/delete.png"/></h2>
+
             <div>
                 <table>
                     <tr>
-                        <td width="180" align="center">
+                        <td width="140" align="center">
                             <a>
                                 <img class="modeImg" src="image/company.jpg"/>
                             </a>
                         </td>
-                        <td width="300" align="center">
+                        <td width="230" align="center">
                             <table>
                                 <tr>
                                     <td>
@@ -57,19 +72,19 @@
             </div>
         </div>
         <div class="ModePart" id="contactPart">
-            <div class="spanDiv">
+            <h2>
                 <a class="modeLink" href="#"><?php echo _("Contact") ?></a>
                 <img class="conDelete" src="image/delete.png"/>
-            </div>  
+            </h2> 
             <div>
                 <table>
                     <tr>
-                        <td width="180" align="center">
+                        <td width="140" align="center">
                             <a>
                                 <img class="modeImg" src="image/contact.jpg"/>
                             </a>
                         </td>
-                        <td width="300" align="center">
+                        <td width="230" align="center">
                             <table>
                                 <tr>
                                     <td>
@@ -93,19 +108,19 @@
         </div>
         
         <div class="ModePart" id="activityPart">
-            <div class="spanDiv">
+            <h2>
                 <a class="modeLink" href="#"><?php echo _("Activity") ?></a>
                 <img class="actDelete" src="image/delete.png"/>
-            </div>
+            </h2>
             <div>
                 <table>
                     <tr>
-                        <td width="180" align="center">
+                        <td width="140" align="center">
                             <a>
                                 <img class="modeImg" src="image/activity.jpg"/>
                             </a>
                         </td>
-                        <td width="300" align="center">
+                        <td width="230" align="center">
                             <table>
                                 <tr>
                                     <td>

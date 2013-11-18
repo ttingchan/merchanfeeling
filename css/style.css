@@ -92,6 +92,7 @@ form a{
 	font-weight:bold;
 /*	text-shadow:1px 1px rgba(53,16,56,0.5);*/
 }
+/*
 a{
     text-decoration: none;
     color: black;
@@ -109,7 +110,7 @@ form a:hover {
     text-decoration:underline;
     color:#532371;
 }
-
+*/
 .header, .naviTable{
     margin-left: 12%;
     font-weight:bold;
@@ -142,6 +143,7 @@ a:hover {
 .settings a:hover,.settings a:visited{
     color: white;
 }
+
 
 .profileLink:hover,.profileLink:visited{
     color: white;
@@ -201,9 +203,9 @@ iframe{
 }
 .ModePart{
     background-color: rgba(206,195,216,0.7);
-    width: 550px;
-    height:170px;
-    margin-top: 20px;
+    width: 400px;
+    height:200px;
+    margin: 10px;
     float: left;
 }
 
@@ -214,8 +216,8 @@ iframe{
 
 .comDelete,.conDelete,.actDelete{
     float:right;
-    width: 20px;
-    height:20px;
+    width: 16px;
+    height:16px;
 }
 
 #companyPart
@@ -227,16 +229,21 @@ iframe{
     width: 120px;
     height: 120px;
 }
+/*
 .modeLink{
     color: black;
 }
+
 .modeLink:hover,.modeLink:visited{
     color: black;
 }
 
+
 .modeLink:hover{
     text-decoration: underline;
 }
+*/
+/*
 .button {
     margin: 5px;
     padding: 5px;
@@ -269,6 +276,7 @@ iframe{
     height:1000px;
     background-color: white;
 }
+*/
 
 #Comfilter{
     float: left;
@@ -308,15 +316,6 @@ iframe{
     display: none;
 }
 
-.box1 {
-    background-color: grey;
-    color: white;
-    float: left;
-    margin: 5px;
-    padding: 5px;
-    width: 180px;
-    text-align: left;
-}
 
 .comMain {
     float: left;

@@ -31,7 +31,7 @@
 
 
             <div>
-                <form id="Comfilter" name="Comfilter" method="post">
+                <form class="filters" name="Comfilter" method="post">
                     <div>
                         <div class="inline">
                             <b>Keyword:</b>

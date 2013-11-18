@@ -1,5 +1,5 @@
 /* general */
-body, button, input, textarea {
+body, button, input, textarea, a {
     font-size: 12px;
     font-family: Verdana, Helvetica, Arial, sans-serif;
 color: #310f33
@@ -70,12 +70,13 @@ option{
     width: 100px;
     height: 15px;
     cursor: pointer;
-    background-color: lavender;
+    background-color: #532371;
     text-align: center;
     font-weight: bold;
+    color: white;
 } .button:hover {
     background-color: #aba0b5;
-    color: white;
+    color: #310f33;
 } .button:active {
     background-color: white;
     color: black;
@@ -83,7 +84,12 @@ option{
 
 a {
     text-decoration: none;
-    color:black;
+} 
+
+button a:hover {
+    text-decoration: none;
+} button a:active {
+    text-decoration: none;
 }
 
 h2 {
@@ -256,6 +262,7 @@ p {
 
 /* detail */
 .detail {
+    width: 800px;
     margin: 5px;
     border-collapse: collapse;
     float: none;
